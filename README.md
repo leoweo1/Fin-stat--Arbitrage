@@ -1,8 +1,11 @@
 # Fin-Arbitrage
 
-What is this designed to do?
+A Python-based system detecting real-time arbitrage opportunities across a forex currency pairs using broker APIs
 
-Creating a simple program to scan market trends and predict moments to arbitrage trades at record speed time.
 
-Functionalities:
-3 pairs focused: GBP/USD EUR/USD USD/JPY
+# Key Features
+**Triangular Arbitrage Detection:**
+- Identifies price discrepancies in 3-currency cycles (EUR/USD -> USD/JPY -> EUR/JPY). (Broker API Integration)
+- Supports OANDA, FXCM, and other Forex brokers with REST/Websocket feeds. (Real-Time Execution Monitoring)
+- Accounts for spreads, commisions, and slippage. (Backtesting Module)
+- Test strategies against historical tick data 
