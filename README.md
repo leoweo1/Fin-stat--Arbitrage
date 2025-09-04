@@ -9,3 +9,4 @@ A Python-based system detecting real-time arbitrage opportunities across a forex
 - Supports OANDA, FXCM, and other Forex brokers with REST/Websocket feeds. (Real-Time Execution Monitoring)
 - Accounts for spreads, commisions, and slippage. (Backtesting Module)
 - Test strategies against historical tick data 
+ 
